@@ -72,7 +72,7 @@ Welcome to our comprehensive guide on ASIC design, where we have designed the pr
 - **RTL Design**: Understand how we converted the project specifications into RTL code using Verilog/VHDL.
   - For a details understanding of the design [follow this]().
 - **RTL Simulation**: Understand how we simulated the RTL code to verify the design functionality.
-  - ![image]()
+  - ![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/simulation/Screenshot%20from%202023-12-20%2018-25-20.png)
 
 - **Code Coverage**: Learn about our approach to code coverage to ensure robust and comprehensive testing.
   - follow this line to get the code coverage
@@ -128,6 +128,8 @@ to see the power report [click here](synthesis/power_fast.txt).
 18. `report_timing > timing_fast.txt`: This command generates a report of the timing of the design and writes it to a file named `timing_fast.txt`.
 to see the timing report [click here](synthesis/timing_fast.txt).
 
+Here is the graphical view:
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/synthesis/syn_img.gif)
 ---
 - **DFT Insertion**: Understand how we prepared the design for post-fabrication testing. For now, I have just skipped the DFT insertion process.
 - **logic Equivalence Check**: The term “Logic Equivalence Check” in ASIC design flow refers to the process of verifying that a design’s netlist is logically equivalent to its original RTL (Register Transfer Level) description. This step is crucial to ensure that no unintended changes or errors were introduced during the translation process from RTL to the netlist.
