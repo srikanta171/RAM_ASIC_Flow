@@ -1,0 +1,182 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 03/14/2018 00:55 (sjfhw314) $
+\o Sub version:		sub-version  s191 
+\o Arguments:		-display :0 -mpssession virtuoso30615 -mpshost cadence1 -namespace CDBA -cdslib /cad/install/IC617/share/cdssetup/cds.lib 
+\o Working Directory:	cadence1:/home/vlsi1/23EC4224/project/RAM/ram_virtuoso
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\o WARNING (CLE-120): The file "/cad/install/IC617/share/cdssetup/cds.lib" is read only. 
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(cdsLibEditor list(130 160 500 400))
+\a nrResizeWindow(errorDialog list(0 0 398 122))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 14 0)
+\o Active cell: 14 0 ""
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/23EC4224/project/RAM/ram_virtuoso"
+\a newLibraryDialog->filePathComboBox->value = "/cad/install/IC617/share/cdssetup"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(115 110 531 513))
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/cad/install/IC617/share/cdssetup/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/cad/install/IC617/share"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/cad/install/IC617/share/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/cad/install/IC617"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/cad/install/IC617/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/cad/install"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/cad/install/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/cad"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/cad/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "//.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "//.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "//.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->dirListWidget->value = "home"
+\a newLibraryDialog->filePathComboBox->value = "//home"
+\a nrListItemAction(newLibraryDialog->dirListWidget 6 0)
+\a newLibraryDialog->filePathComboBox->value = "/home"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "vlsi1"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "Downloads"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads"
+\a nrListItemAction(newLibraryDialog->dirListWidget 6 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "scl_pdk"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "design_kit"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "models"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models"
+\a nrListItemAction(newLibraryDialog->dirListWidget 3 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "docs"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/docs"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/docs/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/docs"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/docs/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/docs"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models"
+\a newLibraryDialog->dirListWidget->value = "hspice"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/hspice"
+\a nrListItemAction(newLibraryDialog->dirListWidget 2 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/hspice/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/models/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "pdklib"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib"
+\a nrListItemAction(newLibraryDialog->dirListWidget 4 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "cadence"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "OA"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA"
+\a nrListItemAction(newLibraryDialog->dirListWidget 2 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "ts018_compana_4M1L_OA"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "rev0.0"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA/rev0.0"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "ref_libs"
+\a newLibraryDialog->filePathComboBox->value = "/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA/rev0.0/ref_libs"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->libraryListBox->value = "ts018_scl_prim"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "ts018_scl_prim"
+\a newLibraryDialog->applyButton->value = t
+\a nrListItemRename(cdsLibEditor->mainTable, 14 0 "ts018_scl_prim")
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 15 0)
+\o Active cell: 15 0 ""
+\a newLibraryDialog->okButton->value = t
+\o ERROR (CLE-214): Provide a library name. 
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(283 306 195 122))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileSaveAsButton->value = t
+\a saveAsGroupDialog->saveAsLibDefsCheckBox->value = nil
+\a saveAsGroupDialog->unionUsageRadioB->value = nil
+\a saveAsGroupDialog->saveAsCdsLibText->value = "/cad/install/IC617/share/cdssetup/cds.lib"
+\a nrSetWindowVisibility(saveAsGroupDialog "show")
+\a nrSetCurrentWindow(saveAsGroupDialog)
+\a nrResizeWindow(saveAsGroupDialog list(0 0 526 345))
+\a saveAsGroupDialog->saveAsCdsLibBrowse->value = t
+\a saveAsCdsLibFileDialog->fileNameEdit->value = "cds.lib"
+\a nrSetWindowVisibility(saveAsCdsLibFileDialog "show")
+\a nrSetCurrentWindow(saveAsCdsLibFileDialog)
+\a nrResizeWindow(saveAsCdsLibFileDialog list(71 162 619 410))
+\a saveAsCdsLibFileDialog->Save->value = t
+\a saveAsGroupDialog->saveAsCdsLibText->value = "cds.lib"
+\a nrSetCurrentWindow(saveAsGroupDialog)
+\a saveAsGroupDialog->okButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

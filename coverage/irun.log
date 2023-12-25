@@ -1,0 +1,86 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Dec 20, 2023 at 18:27:15 IST
+irun
+	/home/vlsi1/23EC4224/project/RAM/rtl/ram.v
+	/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v
+	-access +rwc
+	-coverage all
+	-gui
+file: /home/vlsi1/23EC4224/project/RAM/rtl/ram.v
+	module worklib.single_port_sync_ram:v
+		errors: 0, warnings: 0
+file: /home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v
+	module worklib.tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb
+
+	Extracting FSMs for coverage:
+		worklib.single_port_sync_ram
+		worklib.tb
+	Total FSMs extracted = 0
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+ncelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+		worklib.single_port_sync_ram:v <0x449e2833>
+			streams:   5, words:  2188
+		worklib.tb:v <0x3405a577>
+			streams:  13, words: 10519
+  reg [DATA_WIDTH-1:0] mem [DEPTH-1:0]; 
+                         |
+ncelab: *W,COVMDD (../rtl/ram.v,15|25): Toggle coverage for bit, logic, reg, wire, and struct multi-dimensional static arrays and vectors is not supported by default. To enable toggle coverage on for these types specify 'set_toggle_scoring -sv_mda [<max_bit_base2_exponent>] [-sv_mda_of_struct]' ccf command in the coverage configuration file.
+  integer i;
+          |
+ncelab: *W,COVUTA (../rtl/ram_tb.v,14|10): Toggle coverage is not supported for SystemVerilog integer, real, string, dynamic array, sparse memory, and array of enum. It is also not supported for VHDL multi-dimensional array and array of record. There may also be other such objects in the design.
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Resolved nets:       0       1
+		Registers:           9       9
+		Scalar wires:        4       -
+		Vectored wires:      4       -
+		Always blocks:       3       3
+		Initial blocks:      1       1
+		Cont. assignments:   2       2
+		Pseudo assignments:  5       5
+	Writing initial simulation snapshot: worklib.tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /cad/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+Simulation complete via $finish(1) at time 690 NS + 0
+../rtl/ram_tb.v:42     #20 $finish;
+ncsim> coverage -analyze
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  tb(tb)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_3d80bf50_00000000.ucm
+  data               :  ./cov_work/scope/test/icc_3d80bf50_00000000.ucd
+
+Launching IMC...
+
+ncsim> ^C
+ncsim> exit
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  tb(tb)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_3d80bf50_00000000.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_3d80bf50_00000000.ucd
+TOOL:	irun(64)	15.20-s051: Exiting on Dec 20, 2023 at 18:28:58 IST  (total: 00:01:43)

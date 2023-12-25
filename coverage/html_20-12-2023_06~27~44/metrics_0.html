@@ -1,0 +1,228 @@
+<HTML>
+<HEAD>
+<link type="text/css" rel="stylesheet" href="resources/imc.css"></link>
+<script type="text/javascript" src="resources/sortable.js"></script>
+<TITLE>IMC Report: Metrics Report</TITLE></HEAD>
+<BODY>
+<A NAME="_topcov"></A>
+<P class="summary_title">Coverage   Summary Report, Type-Based</P>
+
+<P class="fs"><A STYLE="float: left" class="namet" HREF="./index.html">Top Level Summary</A><A STYLE="float: right" class="namet" HREF="./resources/legend.html">Legend and Help</A></P>
+<BR>
+<TABLE class="detail_header"><TR class="detail"><TD>
+
+<B>Type name: </B>tb<BR>
+
+<B>File name: </B><A HREF="/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v" TARGET="_blank">/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v</A><BR>
+
+</TD></TR></TABLE>
+
+<BR>
+<P class="subtitle">Coverage Summary Report, Type-Based</P>
+<TABLE class="sortable sml summary_table" id="totalTable">
+
+
+<TR><TH class="wht">Overall</TH>
+<TH class="wht">Overall Covered</TH>
+<TH class="wht">Block</TH>
+<TH class="wht">Expression</TH>
+<TH class="wht">Toggle</TH>
+<TH class="wht">FSM&nbsp;State</TH>
+<TH class="wht">FSM&nbsp;Transition</TH>
+<TH class="wht">Assertion</TH>
+<TH class="wht">Assertion Status</TH>
+<TH class="wht">CoverGroup</TH>
+<TH class="wht">CoverGroup Covered</TH>
+<TH class="wht">name</TH>
+
+</TR>
+
+<TR><TD class="range95to99"><A HREF="">97.50%</A></TD>
+<TD class="range95to99"><A HREF="">96.15%&nbsp;(50/52)</A></TD>
+<TD class="range100"><A HREF="#_Blockcov">100.00%&nbsp;(12/12)</A></TD>
+<TD class="rangenone">n/a</TD>
+<TD class="range95to99"><A HREF="#_Togglecov">95.00%&nbsp;(38/40)</A></TD>
+<TD class="rangenone">n/a</TD>
+<TD class="rangenone">n/a</TD>
+<TD class="rangenone">n/a</TD>
+<TD class="rangenone">n/a</TD>
+<TD class="rangenone">n/a</TD>
+<TD class="rangenone">n/a</TD>
+<TD class="namecell">tb</TD>
+
+</TR>
+
+
+</TABLE>
+<A NAME="_Blockcov"></A>
+<P class="detail_title">     Covered+Uncovered+Excluded+UNR Block Detail Report, Type Based</P>
+<P class="fs"><A STYLE="float: right" class="namet" HREF="#_topcov">To Top</A></P><BR>
+
+<TABLE class="detail_header"><TR class="detail"><TD>
+<B>Type name: </B>tb<BR>
+<B>File name: </B><A HREF="/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v" TARGET="_blank">/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v</A><BR><B>Number of covered blocks: </B>12 of 12<BR>
+<B>Number of uncovered blocks: </B>0 of 12<BR>
+<B>Number of excluded blocks: </B>0<BR>
+<B>Number of unreachable blocks: </B>0<BR>
+
+
+</TD></TR></TABLE>
+
+<PRE class="detail_report_text">
+Count  Block Line  Kind                 Origin Source Code                    Exclusion [User-Reviewer]:Comment        
+-----------------------------------------------------------------------------------------------------------------------
+1      1     26    code block           26     always #10 clk = ~clk;                                                  
+1      2     29    code block           29     initial begin                                                           
+1      3     32    code block           32     repeat (2) @ (posedge clk);                                             
+1      4     34    code block           34     for (i = 0; i &lt; 2**ADDR_WIDTH; i= i+1) begin                                          
+1      5     34    code block           34     for (i = 0; i &lt; 2**ADDR_WIDTH; i= i+1) begin                                          
+1      6     35    code block           35     repeat (1) @(posedge clk) addr &lt;= i; we &lt;= 1; cs &lt;=1; oe &lt;= 0; tb_data &lt;= $random;                                          
+1      7     35    code block           35     repeat (1) @(posedge clk) addr &lt;= i; we &lt;= 1; cs &lt;=1; oe &lt;= 0; tb_data &lt;= $random;                                          
+1      8     38    code block           38     for (i = 0; i &lt; 2**ADDR_WIDTH; i= i+1) begin                                          
+1      9     38    code block           38     for (i = 0; i &lt; 2**ADDR_WIDTH; i= i+1) begin                                          
+1      10    39    code block           39     repeat (1) @(posedge clk) addr &lt;= i; we &lt;= 0; cs &lt;= 1; oe &lt;= 1;                                          
+1      11    39    code block           39     repeat (1) @(posedge clk) addr &lt;= i; we &lt;= 0; cs &lt;= 1; oe &lt;= 1;                                          
+1      12    42    code block           42     #20 $finish;                                                            
+
+</PRE>
+<A NAME="_Expressioncov"></A>
+<P class="detail_title">     Covered+Uncovered+Excluded+UNR Expression Detail Report, Type Based</P>
+<P class="fs"><A STYLE="float: right" class="namet" HREF="#_topcov">To Top</A></P><BR>
+
+<TABLE class="detail_header"><TR class="detail"><TD>
+<B>Type name: </B>tb<BR>
+<B>File name: </B><A HREF="/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v" TARGET="_blank">/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v</A><BR><B>Number of covered expressions: </B>0 of 0<BR>
+<B>Number of uncovered expressions: </B>0 of 0<BR>
+<B>Number of excluded expressions: </B>0<BR>
+<B>Number of unreachable expressions: </B>0<BR>
+
+
+</TD></TR></TABLE>
+
+<PRE class="detail_report_text">
+index  | grade         | line   | expression                                         Exclusion [User-Reviewer]:Comment        
+------------------------------------------------------------------------------------------------------------------------------
+
+
+0 items found
+
+</PRE>
+<A NAME="_Togglecov"></A>
+<P class="detail_title">     Covered+Uncovered+Excluded+UNR Toggle Detail Report, Type Based</P>
+<P class="fs"><A STYLE="float: right" class="namet" HREF="#_topcov">To Top</A></P><BR>
+
+<TABLE class="detail_header"><TR class="detail"><TD>
+<B>Type name: </B>tb<BR>
+<B>File name: </B><A HREF="/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v" TARGET="_blank">/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v</A><BR><B>Number of covered signal bits: </B>38 of 40<BR>
+<B>Number of uncovered signal bits: </B>2 of 40<BR>
+<B>Number of excluded signal bits: </B>0<BR>
+<B>Number of unreachable signal bits: </B>0<BR>
+<B>Number of signal bits partially toggled(rise): </B>2 of 40<BR>
+<B>Number of signal bits partially toggled(fall): </B>0 of 40<BR>
+
+
+</TD></TR></TABLE>
+
+<PRE class="detail_report_text">
+Hit(Full)  Hit(Rise)  Hit(Fall)  Signal                    Exclusion [User-Reviewer]:Comment        
+----------------------------------------------------------------------------------------------------
+1          1          1          clk                                                                
+0          1          0          cs                                                                 
+1          1          1          we                                                                 
+0          1          0          oe                                                                 
+1          1          1          addr[3]                                                            
+1          1          1          addr[2]                                                            
+1          1          1          addr[1]                                                            
+1          1          1          addr[0]                                                            
+1          1          1          data[15]                                                           
+1          1          1          data[14]                                                           
+1          1          1          data[13]                                                           
+1          1          1          data[12]                                                           
+1          1          1          data[11]                                                           
+1          1          1          data[10]                                                           
+1          1          1          data[9]                                                            
+1          1          1          data[8]                                                            
+1          1          1          data[7]                                                            
+1          1          1          data[6]                                                            
+1          1          1          data[5]                                                            
+1          1          1          data[4]                                                            
+1          1          1          data[3]                                                            
+1          1          1          data[2]                                                            
+1          1          1          data[1]                                                            
+1          1          1          data[0]                                                            
+1          1          1          tb_data[15]                                                        
+1          1          1          tb_data[14]                                                        
+1          1          1          tb_data[13]                                                        
+1          1          1          tb_data[12]                                                        
+1          1          1          tb_data[11]                                                        
+1          1          1          tb_data[10]                                                        
+1          1          1          tb_data[9]                                                         
+1          1          1          tb_data[8]                                                         
+1          1          1          tb_data[7]                                                         
+1          1          1          tb_data[6]                                                         
+1          1          1          tb_data[5]                                                         
+1          1          1          tb_data[4]                                                         
+1          1          1          tb_data[3]                                                         
+1          1          1          tb_data[2]                                                         
+1          1          1          tb_data[1]                                                         
+1          1          1          tb_data[0]                                                         
+
+</PRE>
+<A NAME="_Fsmcov"></A>
+<P class="detail_title">     Covered+Uncovered+Excluded+UNR Fsm Detail Report, Type Based</P>
+<P class="fs"><A STYLE="float: right" class="namet" HREF="#_topcov">To Top</A></P><BR>
+
+<TABLE class="detail_header"><TR class="detail"><TD>
+<B>Type name: </B>tb<BR>
+<B>File name: </B><A HREF="/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v" TARGET="_blank">/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v</A><BR>
+
+</TD></TR></TABLE>
+
+<PRE class="detail_report_text">
+
+0 items found
+
+</PRE>
+<A NAME="_Assertioncov"></A>
+<P class="detail_title">     Covered+Uncovered+Excluded+UNR Assertion Detail Report, Type Based</P>
+<P class="fs"><A STYLE="float: right" class="namet" HREF="#_topcov">To Top</A></P><BR>
+
+<TABLE class="detail_header"><TR class="detail"><TD>
+<B>Type name: </B>tb<BR>
+<B>File name: </B><A HREF="/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v" TARGET="_blank">/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v</A><BR><B>Number of covered assertions: </B>0 of 0<BR>
+<B>Number of uncovered assertions: </B>0 of 0<BR>
+<B>Number of excluded assertions: </B>0<BR>
+<B>Number of covered formal Properties: </B>0 of 0<BR>
+<B>Number of uncovered formal Properties: </B>0 of 0<BR>
+<B>Number of excluded formal Properties: </B>0<BR>
+
+
+</TD></TR></TABLE>
+
+<PRE class="detail_report_text">
+Finished Failed Vacuous  Attempt  Disabled Status          Formal Finished   Formal Failed  Formal Proved     Formal Passed     Formal CEX        Formal Status   Assertion                      Line  Source Code                    Exclusion [User-Reviewer]:Comment        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+0 items found
+
+</PRE>
+<A NAME="_CoverGroupcov"></A>
+<P class="detail_title">     Covered+Uncovered+Excluded+UNR CoverGroup Detail Report, Type Based</P>
+<P class="fs"><A STYLE="float: right" class="namet" HREF="#_topcov">To Top</A></P><BR>
+
+<TABLE class="detail_header"><TR class="detail"><TD>
+<B>Type name: </B>tb<BR>
+<B>File name: </B><A HREF="/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v" TARGET="_blank">/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v</A><BR><B>Number of covered cover bins: </B>0 of 0<BR>
+<B>Number of uncovered cover bins: </B>0 of 0<BR>
+<B>Number of excluded cover bins: </B>0<BR>
+
+
+</TD></TR></TABLE>
+
+</TD></TR></TABLE>
+
+<PRE class="detail_report_text">
+
+0 items found
+
+</PRE>

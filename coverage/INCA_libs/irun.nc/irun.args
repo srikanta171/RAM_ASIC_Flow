@@ -1,0 +1,11 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+/home/vlsi1/23EC4224/project/RAM/rtl/ram.v
+/home/vlsi1/23EC4224/project/RAM/rtl/ram_tb.v
+-access
++rwc
+-coverage
+all
+-gui

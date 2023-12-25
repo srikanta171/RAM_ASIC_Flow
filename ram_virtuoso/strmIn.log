@@ -1,0 +1,188 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version 6.1.7-64b 04/17/2018 19:57 (sjfhw310) $
+          : sub-version  IC6.1.7-64b.500.19 
+Started at: 20-Dec-2023  19:47:21
+User Name : vlsi1
+Host Name : cadence1
+Directory : /home/vlsi1/23EC4224/project/RAM/ram_virtuoso
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-75): Target library 'ram_lib' is attached to the technology library 'ts018_scl_prim'. Therefore, the technology file is opened in read-only mode. All the undefined layer-purpose pairs will be dropped.
+INFO (XSTRM-217): Reading the layer map file, /home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA/rev0.0/ref_libs/ts018_scl_prim/ts018_scl_prim.layermap
+INFO (XSTRM-217): Reading the object map file, /home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA/rev0.0/ref_libs/ts018_scl_prim/ts018_scl_prim.objectmap
+WARNING (XSTRM-155): Ignoring the Stream layer:datatype pair '235:0' at row '1' in the object map file '/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA/rev0.0/ref_libs/ts018_scl_prim/ts018_scl_prim.objectmap' because it is also defined in the layer map file. Additionally, shapes in GDS on '235:0' with properties indicating they were translated from objects in the OpenAccess database will be translated back to objects. The remaining shapes will be translated to shapes.
+INFO (XSTRM-163): You have not used the viaMap option. If a viaMap file, corresponding techfile or technology library exist, then use the -viaMap option for creating oaVia instances in the Streamed-In library. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design. For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options:
+	library				ram_lib
+	strmFile			/home/vlsi1/23EC4224/project/RAM/physical_design/ram.gds
+	logFile				strmIn.log
+	view				layout
+	case				Preserve
+	layerMap			/home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA/rev0.0/ref_libs/ts018_scl_prim/ts018_scl_prim.layermap
+	propSeparator			,
+	attachTechFileOfLib				ts018_scl_prim
+	objectMap			 /home/vlsi1/Downloads/scl_pdk/design_kit/pdklib/cadence/OA/ts018_compana_4M1L_OA/rev0.0/ref_libs/ts018_scl_prim/ts018_scl_prim.objectmap
+
+INFO (XSTRM-220): 1. Translating STRUCTURE buffd3 as cellView ram_lib/buffd3/layout.
+INFO (XSTRM-220): 2. Translating STRUCTURE or02d0 as cellView ram_lib/or02d0/layout.
+INFO (XSTRM-220): 3. Translating STRUCTURE nd04d1 as cellView ram_lib/nd04d1/layout.
+INFO (XSTRM-220): 4. Translating STRUCTURE dfnrq1 as cellView ram_lib/dfnrq1/layout.
+INFO (XSTRM-220): 5. Translating STRUCTURE mx02d1 as cellView ram_lib/mx02d1/layout.
+INFO (XSTRM-220): 6. Translating STRUCTURE aoi222d1 as cellView ram_lib/aoi222d1/layout.
+INFO (XSTRM-220): 7. Translating STRUCTURE aoi22d1 as cellView ram_lib/aoi22d1/layout.
+INFO (XSTRM-220): 8. Translating STRUCTURE an02d2 as cellView ram_lib/an02d2/layout.
+INFO (XSTRM-220): 9. Translating STRUCTURE nr02d4 as cellView ram_lib/nr02d4/layout.
+INFO (XSTRM-220): 10. Translating STRUCTURE invtd1 as cellView ram_lib/invtd1/layout.
+INFO (XSTRM-220): 11. Translating STRUCTURE nd02d4 as cellView ram_lib/nd02d4/layout.
+INFO (XSTRM-220): 12. Translating STRUCTURE inv0d0 as cellView ram_lib/inv0d0/layout.
+INFO (XSTRM-220): 13. Translating STRUCTURE an02d1 as cellView ram_lib/an02d1/layout.
+INFO (XSTRM-220): 14. Translating STRUCTURE nd02d0 as cellView ram_lib/nd02d0/layout.
+INFO (XSTRM-220): 15. Translating STRUCTURE nd02d1 as cellView ram_lib/nd02d1/layout.
+INFO (XSTRM-220): 16. Translating STRUCTURE nr02d0 as cellView ram_lib/nr02d0/layout.
+INFO (XSTRM-220): 17. Translating STRUCTURE nd12d0 as cellView ram_lib/nd12d0/layout.
+INFO (XSTRM-220): 18. Translating STRUCTURE nd12d1 as cellView ram_lib/nd12d1/layout.
+INFO (XSTRM-220): 19. Translating STRUCTURE dfnrb1 as cellView ram_lib/dfnrb1/layout.
+INFO (XSTRM-220): 20. Translating STRUCTURE nd12d4 as cellView ram_lib/nd12d4/layout.
+INFO (XSTRM-220): 21. Translating STRUCTURE subil_m_cc as cellView ram_lib/subil_m_cc/layout.
+INFO (XSTRM-220): 22. Translating STRUCTURE subil_clkpngatering as cellView ram_lib/subil_clkpngatering/layout.
+INFO (XSTRM-220): 23. Translating STRUCTURE subil_pnclkbasebuff as cellView ram_lib/subil_pnclkbasebuff/layout.
+INFO (XSTRM-220): 24. Translating STRUCTURE subil_pnclkbuff as cellView ram_lib/subil_pnclkbuff/layout.
+INFO (XSTRM-220): 25. Translating STRUCTURE subil_m_via3 as cellView ram_lib/subil_m_via3/layout.
+INFO (XSTRM-220): 26. Translating STRUCTURE subil_m_via2 as cellView ram_lib/subil_m_via2/layout.
+INFO (XSTRM-220): 27. Translating STRUCTURE subil_m_via as cellView ram_lib/subil_m_via/layout.
+INFO (XSTRM-220): 28. Translating STRUCTURE subil_pp18clkdrive as cellView ram_lib/subil_pp18clkdrive/layout.
+INFO (XSTRM-220): 29. Translating STRUCTURE subil_m_via5 as cellView ram_lib/subil_m_via5/layout.
+INFO (XSTRM-220): 30. Translating STRUCTURE subil_m_via4 as cellView ram_lib/subil_m_via4/layout.
+INFO (XSTRM-220): 31. Translating STRUCTURE subil_clkpowermetal as cellView ram_lib/subil_clkpowermetal/layout.
+INFO (XSTRM-220): 32. Translating STRUCTURE subil_dio46 as cellView ram_lib/subil_dio46/layout.
+INFO (XSTRM-220): 33. Translating STRUCTURE subil_m_ccp as cellView ram_lib/subil_m_ccp/layout.
+INFO (XSTRM-220): 34. Translating STRUCTURE subil_pp18clkout as cellView ram_lib/subil_pp18clkout/layout.
+INFO (XSTRM-220): 35. Translating STRUCTURE subil_pp18clkin as cellView ram_lib/subil_pp18clkin/layout.
+INFO (XSTRM-220): 36. Translating STRUCTURE subil_pp18clkinout as cellView ram_lib/subil_pp18clkinout/layout.
+INFO (XSTRM-220): 37. Translating STRUCTURE subil_clk1x as cellView ram_lib/subil_clk1x/layout.
+INFO (XSTRM-220): 38. Translating STRUCTURE subil_clkppgatebotring as cellView ram_lib/subil_clkppgatebotring/layout.
+INFO (XSTRM-220): 39. Translating STRUCTURE subil_clkppbasebuff as cellView ram_lib/subil_clkppbasebuff/layout.
+INFO (XSTRM-220): 40. Translating STRUCTURE subil_clkppgatering as cellView ram_lib/subil_clkppgatering/layout.
+INFO (XSTRM-220): 41. Translating STRUCTURE subil_ppclkbuff as cellView ram_lib/subil_ppclkbuff/layout.
+INFO (XSTRM-220): 42. Translating STRUCTURE subil_clkblockcell as cellView ram_lib/subil_clkblockcell/layout.
+INFO (XSTRM-220): 43. Translating STRUCTURE pc3c01 as cellView ram_lib/pc3c01/layout.
+INFO (XSTRM-220): 44. Translating STRUCTURE subil_psegment as cellView ram_lib/subil_psegment/layout.
+INFO (XSTRM-220): 45. Translating STRUCTURE subil_cornerarray as cellView ram_lib/subil_cornerarray/layout.
+INFO (XSTRM-220): 46. Translating STRUCTURE subil_via2array as cellView ram_lib/subil_via2array/layout.
+INFO (XSTRM-220): 47. Translating STRUCTURE subil_via1array as cellView ram_lib/subil_via1array/layout.
+INFO (XSTRM-220): 48. Translating STRUCTURE subil_padmetal as cellView ram_lib/subil_padmetal/layout.
+INFO (XSTRM-220): 49. Translating STRUCTURE subil_pad as cellView ram_lib/subil_pad/layout.
+INFO (XSTRM-220): 50. Translating STRUCTURE subil_pngatebuff as cellView ram_lib/subil_pngatebuff/layout.
+INFO (XSTRM-220): 51. Translating STRUCTURE subil_pngate2buff as cellView ram_lib/subil_pngate2buff/layout.
+INFO (XSTRM-220): 52. Translating STRUCTURE subil_pngatering as cellView ram_lib/subil_pngatering/layout.
+INFO (XSTRM-220): 53. Translating STRUCTURE subil_pnbuff as cellView ram_lib/subil_pnbuff/layout.
+INFO (XSTRM-220): 54. Translating STRUCTURE VCELLA23 as cellView ram_lib/VCELLA23/layout.
+INFO (XSTRM-220): 55. Translating STRUCTURE subil_ppolyres as cellView ram_lib/subil_ppolyres/layout.
+INFO (XSTRM-220): 56. Translating STRUCTURE subil_pbbuffcon as cellView ram_lib/subil_pbbuffcon/layout.
+INFO (XSTRM-220): 57. Translating STRUCTURE subil_powermetal as cellView ram_lib/subil_powermetal/layout.
+INFO (XSTRM-220): 58. Translating STRUCTURE subil_iorule as cellView ram_lib/subil_iorule/layout.
+INFO (XSTRM-220): 59. Translating STRUCTURE subil_ppgate2buffend as cellView ram_lib/subil_ppgate2buffend/layout.
+INFO (XSTRM-220): 60. Translating STRUCTURE subil_ppgatebotring as cellView ram_lib/subil_ppgatebotring/layout.
+INFO (XSTRM-220): 61. Translating STRUCTURE subil_ppgatebuff as cellView ram_lib/subil_ppgatebuff/layout.
+INFO (XSTRM-220): 62. Translating STRUCTURE subil_ppgate2buff as cellView ram_lib/subil_ppgate2buff/layout.
+INFO (XSTRM-220): 63. Translating STRUCTURE subil_ppgate2bufftop as cellView ram_lib/subil_ppgate2bufftop/layout.
+INFO (XSTRM-220): 64. Translating STRUCTURE subil_ppgatering as cellView ram_lib/subil_ppgatering/layout.
+INFO (XSTRM-220): 65. Translating STRUCTURE subil_ppbuff as cellView ram_lib/subil_ppbuff/layout.
+INFO (XSTRM-220): 66. Translating STRUCTURE VCELLA42 as cellView ram_lib/VCELLA42/layout.
+INFO (XSTRM-220): 67. Translating STRUCTURE subil_nwellres as cellView ram_lib/subil_nwellres/layout.
+INFO (XSTRM-220): 68. Translating STRUCTURE subil_pdwellbias as cellView ram_lib/subil_pdwellbias/layout.
+INFO (XSTRM-220): 69. Translating STRUCTURE rpmpoly2t$$44660780 as cellView ram_lib/rpmpoly2t$$44660780/layout.
+INFO (XSTRM-220): 70. Translating STRUCTURE subil_pp18input01 as cellView ram_lib/subil_pp18input01/layout.
+INFO (XSTRM-220): 71. Translating STRUCTURE subil_preside as cellView ram_lib/subil_preside/layout.
+INFO (XSTRM-220): 72. Translating STRUCTURE subil_ppdrive as cellView ram_lib/subil_ppdrive/layout.
+INFO (XSTRM-220): 73. Translating STRUCTURE subil_p18vdd32 as cellView ram_lib/subil_p18vdd32/layout.
+INFO (XSTRM-220): 74. Translating STRUCTURE subil_vddring as cellView ram_lib/subil_vddring/layout.
+INFO (XSTRM-220): 75. Translating STRUCTURE subil_vddcell1 as cellView ram_lib/subil_vddcell1/layout.
+INFO (XSTRM-220): 76. Translating STRUCTURE subil_pp18esdinp as cellView ram_lib/subil_pp18esdinp/layout.
+INFO (XSTRM-220): 77. Translating STRUCTURE subil_pddrive01 as cellView ram_lib/subil_pddrive01/layout.
+INFO (XSTRM-220): 78. Translating STRUCTURE subil_pcd21con as cellView ram_lib/subil_pcd21con/layout.
+INFO (XSTRM-220): 79. Translating STRUCTURE subil_pdblockcell as cellView ram_lib/subil_pdblockcell/layout.
+INFO (XSTRM-220): 80. Translating STRUCTURE pc3d01 as cellView ram_lib/pc3d01/layout.
+INFO (XSTRM-220): 81. Translating STRUCTURE subil_midconer2 as cellView ram_lib/subil_midconer2/layout.
+INFO (XSTRM-220): 82. Translating STRUCTURE pfrelr as cellView ram_lib/pfrelr/layout.
+INFO (XSTRM-220): 83. Translating STRUCTURE subil_pviblockcell as cellView ram_lib/subil_pviblockcell/layout.
+INFO (XSTRM-220): 84. Translating STRUCTURE subil_pngatebuff_ESD122 as cellView ram_lib/subil_pngatebuff_ESD122/layout.
+INFO (XSTRM-220): 85. Translating STRUCTURE subil_pngate2buff_ESD122 as cellView ram_lib/subil_pngate2buff_ESD122/layout.
+INFO (XSTRM-220): 86. Translating STRUCTURE subil_pngatering22 as cellView ram_lib/subil_pngatering22/layout.
+INFO (XSTRM-220): 87. Translating STRUCTURE subil_pnbuff_ESD122 as cellView ram_lib/subil_pnbuff_ESD122/layout.
+INFO (XSTRM-220): 88. Translating STRUCTURE subil_iorulepower as cellView ram_lib/subil_iorulepower/layout.
+INFO (XSTRM-220): 89. Translating STRUCTURE subil_ppgatebuffpower_0di_ESD22 as cellView ram_lib/subil_ppgatebuffpower_0di_ESD22/layout.
+INFO (XSTRM-220): 90. Translating STRUCTURE subil_ppgate2buffpower_0di_ESD22 as cellView ram_lib/subil_ppgate2buffpower_0di_ESD22/layout.
+INFO (XSTRM-220): 91. Translating STRUCTURE subil_ppgatebotringpower_0di as cellView ram_lib/subil_ppgatebotringpower_0di/layout.
+INFO (XSTRM-220): 92. Translating STRUCTURE subil_ppgateringpower_0di as cellView ram_lib/subil_ppgateringpower_0di/layout.
+INFO (XSTRM-220): 93. Translating STRUCTURE subil_ppbuffpower_0di_ESD22 as cellView ram_lib/subil_ppbuffpower_0di_ESD22/layout.
+INFO (XSTRM-220): 94. Translating STRUCTURE subil_presistorpower as cellView ram_lib/subil_presistorpower/layout.
+INFO (XSTRM-220): 95. Translating STRUCTURE subil_powerbasecon_ESD as cellView ram_lib/subil_powerbasecon_ESD/layout.
+INFO (XSTRM-220): 96. Translating STRUCTURE subil_powermetalring_ESD1 as cellView ram_lib/subil_powermetalring_ESD1/layout.
+INFO (XSTRM-220): 97. Translating STRUCTURE subil_pdiodepower as cellView ram_lib/subil_pdiodepower/layout.
+INFO (XSTRM-220): 98. Translating STRUCTURE subil_m_via_546 as cellView ram_lib/subil_m_via_546/layout.
+INFO (XSTRM-220): 99. Translating STRUCTURE subil_m_via2_545 as cellView ram_lib/subil_m_via2_545/layout.
+INFO (XSTRM-220): 100. Translating STRUCTURE cnwnmos_thn2t$$44657708 as cellView ram_lib/cnwnmos_thn2t$$44657708/layout.
+INFO (XSTRM-220): 101. Translating STRUCTURE subil_pcappower as cellView ram_lib/subil_pcappower/layout.
+INFO (XSTRM-220): 102. Translating STRUCTURE subil_powerbase_1 as cellView ram_lib/subil_powerbase_1/layout.
+INFO (XSTRM-220): 103. Translating STRUCTURE subil_powerbase_ESD1 as cellView ram_lib/subil_powerbase_ESD1/layout.
+INFO (XSTRM-220): 104. Translating STRUCTURE subil_pvdicon_ESD as cellView ram_lib/subil_pvdicon_ESD/layout.
+INFO (XSTRM-220): 105. Translating STRUCTURE pvdi as cellView ram_lib/pvdi/layout.
+INFO (XSTRM-220): 106. Translating STRUCTURE subil_pvblockcell as cellView ram_lib/subil_pvblockcell/layout.
+INFO (XSTRM-220): 107. Translating STRUCTURE subil_pngatebuff_ESD1 as cellView ram_lib/subil_pngatebuff_ESD1/layout.
+INFO (XSTRM-220): 108. Translating STRUCTURE subil_pngate2buff_ESD1 as cellView ram_lib/subil_pngate2buff_ESD1/layout.
+INFO (XSTRM-220): 109. Translating STRUCTURE subil_pnbuff_ESD1 as cellView ram_lib/subil_pnbuff_ESD1/layout.
+INFO (XSTRM-220): 110. Translating STRUCTURE subil_ppgatebotringpower as cellView ram_lib/subil_ppgatebotringpower/layout.
+INFO (XSTRM-220): 111. Translating STRUCTURE subil_ppgatebuffpower as cellView ram_lib/subil_ppgatebuffpower/layout.
+INFO (XSTRM-220): 112. Translating STRUCTURE subil_ppgate2buffpower as cellView ram_lib/subil_ppgate2buffpower/layout.
+INFO (XSTRM-220): 113. Translating STRUCTURE subil_ppgateringpower as cellView ram_lib/subil_ppgateringpower/layout.
+INFO (XSTRM-220): 114. Translating STRUCTURE subil_ppbuffpower as cellView ram_lib/subil_ppbuffpower/layout.
+INFO (XSTRM-220): 115. Translating STRUCTURE subil_pvdacon_ESD as cellView ram_lib/subil_pvdacon_ESD/layout.
+INFO (XSTRM-220): 116. Translating STRUCTURE subil_powerbasevsso as cellView ram_lib/subil_powerbasevsso/layout.
+INFO (XSTRM-220): 117. Translating STRUCTURE subil_powermetalring as cellView ram_lib/subil_powermetalring/layout.
+INFO (XSTRM-220): 118. Translating STRUCTURE pvda as cellView ram_lib/pvda/layout.
+INFO (XSTRM-220): 119. Translating STRUCTURE subil_pngatebuff_ESD22 as cellView ram_lib/subil_pngatebuff_ESD22/layout.
+INFO (XSTRM-220): 120. Translating STRUCTURE subil_pngate2buff_ESD22 as cellView ram_lib/subil_pngate2buff_ESD22/layout.
+INFO (XSTRM-220): 121. Translating STRUCTURE subil_pngatering_ESD22 as cellView ram_lib/subil_pngatering_ESD22/layout.
+INFO (XSTRM-220): 122. Translating STRUCTURE subil_pnbuff_ESD22 as cellView ram_lib/subil_pnbuff_ESD22/layout.
+INFO (XSTRM-220): 123. Translating STRUCTURE subil_powermetalring_ESD2 as cellView ram_lib/subil_powermetalring_ESD2/layout.
+INFO (XSTRM-220): 124. Translating STRUCTURE subil_powerbase_ESD2 as cellView ram_lib/subil_powerbase_ESD2/layout.
+INFO (XSTRM-220): 125. Translating STRUCTURE subil_powerbaseconvsso_ESD1 as cellView ram_lib/subil_powerbaseconvsso_ESD1/layout.
+INFO (XSTRM-220): 126. Translating STRUCTURE subil_4via_ESD as cellView ram_lib/subil_4via_ESD/layout.
+INFO (XSTRM-220): 127. Translating STRUCTURE subil_pv0icon_ESD as cellView ram_lib/subil_pv0icon_ESD/layout.
+INFO (XSTRM-220): 128. Translating STRUCTURE pv0i as cellView ram_lib/pv0i/layout.
+INFO (XSTRM-220): 129. Translating STRUCTURE subil_pngatebuff_ESD as cellView ram_lib/subil_pngatebuff_ESD/layout.
+INFO (XSTRM-220): 130. Translating STRUCTURE subil_pngate2buff_ESD as cellView ram_lib/subil_pngate2buff_ESD/layout.
+INFO (XSTRM-220): 131. Translating STRUCTURE subil_pnbuff_ESD as cellView ram_lib/subil_pnbuff_ESD/layout.
+INFO (XSTRM-220): 132. Translating STRUCTURE subil_powerbasevsso_ESD as cellView ram_lib/subil_powerbasevsso_ESD/layout.
+INFO (XSTRM-220): 133. Translating STRUCTURE subil_powermetalring_ESD as cellView ram_lib/subil_powermetalring_ESD/layout.
+INFO (XSTRM-220): 134. Translating STRUCTURE subil_powerbaseconvsso_ESD as cellView ram_lib/subil_powerbaseconvsso_ESD/layout.
+INFO (XSTRM-220): 135. Translating STRUCTURE subil_pv0acon_ESD as cellView ram_lib/subil_pv0acon_ESD/layout.
+INFO (XSTRM-220): 136. Translating STRUCTURE pv0a as cellView ram_lib/pv0a/layout.
+INFO (XSTRM-220): 137. Translating STRUCTURE pfeed10000 as cellView ram_lib/pfeed10000/layout.
+INFO (XSTRM-220): 138. Translating STRUCTURE feedth9 as cellView ram_lib/feedth9/layout.
+INFO (XSTRM-220): 139. Translating STRUCTURE feedth3 as cellView ram_lib/feedth3/layout.
+INFO (XSTRM-220): 140. Translating STRUCTURE feedth as cellView ram_lib/feedth/layout.
+INFO (XSTRM-220): 141. Translating STRUCTURE single_port_sync_ram as cellView ram_lib/single_port_sync_ram/layout.
+
+Summary of Objects Translated:
+	Instances:                              140289
+	CustomVias:                             0
+	StandardVias:                           10645
+	CdsGenVias:                             0
+	Arrays:                                 0
+	Polygons:                               633
+	Paths:                                  17945
+	PathSegs:                               0
+	Rectangles:                             13839
+	Text:                                   2129
+	Node:                                   0
+	Line:                                   0
+	Cells:                                  141
+
+Elapsed Time: 1.0s   User Time: 0.3s   CPU Time: 0.1s   Peak VM: 84940KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
