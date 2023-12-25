@@ -177,3 +177,4 @@ When importing a design into Cadence Innovus, the following files are required:
 After the signoff process, the design is ready for fabrication ¹³.
 
 Final Result of the Flow:
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/physical_design/Screenshot%20from%202023-12-20%2019-49-24.png)
