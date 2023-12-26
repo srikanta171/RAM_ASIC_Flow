@@ -1,4 +1,4 @@
-# RTL to GDS Flow of Single-Port Synchronous Memory
+# RTL to GDSII Flow of Single-Port Synchronous Memory
 This repository contains materials related to the RTL to GDS flow and the concept of single-port synchronous memory. The aim is to provide a comprehensive understanding of the digital circuit design process and memory theory.
 
 ## Abstract:
