@@ -128,7 +128,7 @@ to see the power report [click here](synthesis/power_fast.txt).
 18. `report_timing > timing_fast.txt`: This command generates a report of the timing of the design and writes it to a file named `timing_fast.txt`.
 to see the timing report [click here](synthesis/timing_fast.txt).
 
-##Here is the graphical view:
+## Here is the graphical view:
 ![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/synthesis/syn_img.gif)
 ---
 - **DFT Insertion**: Understand how we prepared the design for post-fabrication testing. For now, I have just skipped the DFT insertion process.
