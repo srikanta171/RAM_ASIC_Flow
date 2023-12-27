@@ -128,7 +128,7 @@ to see the power report [click here](synthesis/power_fast.txt).
 18. `report_timing > timing_fast.txt`: This command generates a report of the timing of the design and writes it to a file named `timing_fast.txt`.
 to see the timing report [click here](synthesis/timing_fast.txt).
 
-Here is the graphical view:
+##Here is the graphical view:
 ![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/synthesis/syn_img.gif)
 ---
 - **DFT Insertion**: Understand how we prepared the design for post-fabrication testing. For now, I have just skipped the DFT insertion process.
@@ -143,11 +143,11 @@ Here is the graphical view:
 
 ---
 
-## ASIC Physical Design Flow:
+### ASIC Physical Design Flow:
 
 Welcome to our comprehensive guide on ASIC Physical Design Flow, also known as Netlist to GDSII Flow or PNR Flow. This guide is perfect for those who want to understand the practical aspects of chip creation.
 
-### Let's get started
+#### Let's get started
 
 - **Design Import**: This is the initial phase where the design data is imported into the physical design tools.
 When importing a design into Cadence Innovus, the following files are required:
