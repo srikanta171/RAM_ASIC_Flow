@@ -168,15 +168,15 @@ When importing a design into Cadence Innovus, the following files are required:
 - **Routing & Route Opt**: The final step involves connecting the components with wires (routing) and optimizing the wire paths to minimize delays and other issues. Check [my logs](physical_design/innovus.log1) or check [this cmd](https://github.com/srikanta171/RAM_ASIC_Flow/blob/6846b3bc3edf0fd3ae40dc64d0beab08ebd42a09/physical_design/innovus.cmd1#L287)
 
 - **Signoff**: In physical design, signoff is the process of verifying that the design meets all the necessary requirements before it can be sent for fabrication. Signoff checks are a series of verification steps that the design must pass before it can be taped out. The signoff process involves incremental fixes across the board using one or more check types, and then retesting the design. There are several types of signoff checks such as:
-- Design Rule Checking (DRC): This check verifies that the layout of a chip satisfies a series of recommended parameters called design rules.
-- Layout Versus Schematic (LVS) verification: This check ensures that the layout of the design matches the schematic.
-- Formal Verification: This check verifies that the design meets the specified functional requirements.
-- IR Drop Analysis: This check ensures that the voltage drop across the chip is within acceptable limits.
-- Power Analysis: Power analysis is performed to ensure that the chip meets the power requirements and to identify any potential power issues early in the design process.
-- Signal Integrity Analysis: This check ensures that the signal quality is within acceptable limits.
-- ESD checks: ESD stands for Electrostatic Discharge. ESD check is a process of verifying that the design meets the necessary requirements to prevent damage from electrostatic discharge.
+	1. Design Rule Checking (DRC): This check verifies that the layout of a chip satisfies a series of recommended parameters called design rules.
+	2. Layout Versus Schematic (LVS) verification: This check ensures that the layout of the design matches the schematic.
+	3. Formal Verification: This check verifies that the design meets the specified functional requirements.
+	4. IR Drop Analysis: This check ensures that the voltage drop across the chip is within acceptable limits.
+	5. Power Analysis: Power analysis is performed to ensure that the chip meets the power requirements and to identify any potential power issues early in the design process.
+	6. Signal Integrity Analysis: This check ensures that the signal quality is within acceptable limits.
+	7. ESD checks: ESD stands for Electrostatic Discharge. ESD check is a process of verifying that the design meets the necessary requirements to prevent damage from electrostatic discharge.
 
-After the signoff process, the design is ready for fabrication ¹³.
+After the signoff process, the design is ready for fabrication.
 
 Final Result of the Flow:
 ![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/physical_design/Screenshot%20from%202023-12-20%2019-49-24.png)
