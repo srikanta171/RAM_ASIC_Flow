@@ -1,21 +1,21 @@
-# RTL to GDSII Flow of Single-Port Synchronous Memory
-This repository contains materials related to the RTL to GDS flow and the concept of single-port synchronous memory. The aim is to provide a comprehensive understanding of the digital circuit design process and memory theory.
+# RTL to GDSII Flow of Single-Port Memory
+This repository contains materials related to the RTL to GDS flow and the concept of single-port memory. The aim is to provide a comprehensive understanding of the digital circuit design process and memory theory.
 
 ## Abstract:
 This project aims to provide a comprehensive understanding of the RTL (Register Transfer Level) to GDS (Graphic Data System) flow, a critical process in digital circuit design. The project covers every step of the flow, from RTL design using hardware description languages, synthesis to gate-level representations, placement and routing, to the final GDSII file generation. A significant portion of the project is dedicated to discussing the concept and theory of memory, with a particular focus on single-port synchronous memory.
 
 ## Contents
-1. **Single-Port Synchronous Memory:**
+1. **Single-Port Memory:**
 2. **ASIC Flow (RTL to GDS Flow):**
 ---
 # Getting Started
 
 
-## Single-Port Synchronous Memory Module
+## Single-Port Memory Module
 
 ### Introduction
 
-This repository contains a Verilog module for a single-port synchronous memory. This type of memory is a fundamental component in digital systems, allowing data to be read from and written to a single memory location (address) at a time.
+This repository contains a Verilog module for a single-port memory. This type of memory is a fundamental component in digital systems, allowing data to be read from and written to a single memory location (address) at a time.
 
 ### Theory
 
@@ -25,7 +25,7 @@ The term "single-port" comes from the fact that this type of RAM has only one da
 
 ### Working Principle
 
-The single-port synchronous memory module operates on the rising edge of the clock signal. If a write operation is in progress (signaled by the `we` control signal), the data at the specified address is updated. If a read operation is in progress (signaled by the absence of the `we` control signal), the data from the specified address is loaded into a temporary register.
+The single-port memory module operates on the rising edge of the clock signal. If a write operation is in progress (signaled by the `we` control signal), the data at the specified address is updated. If a read operation is in progress (signaled by the absence of the `we` control signal), the data from the specified address is loaded into a temporary register.
 
 The data output is controlled by the `oe` (output enable) control signal. If output is enabled and no write operation is in progress, the data from the temporary register is output.
 
@@ -38,7 +38,7 @@ Computer memory is a broad field with various types. In general, computer memory
 3. **Cache Memory**: A small-sized type of volatile computer memory that provides high-speed data access to a processor and stores frequently used computer programs, applications, and data.
 
 ### Size of the Memory:
-The memory size of this single-port synchronous memory module is determined by the `ADDR_WIDTH`, `DATA_WIDTH`, and `DEPTH` parameters. 
+The memory size of this single-port memory module is determined by the `ADDR_WIDTH`, `DATA_WIDTH`, and `DEPTH` parameters. 
 
 In this case, the address width (`ADDR_WIDTH`) is 4 bits, the data width (`DATA_WIDTH`) is 32 bits, and the depth (`DEPTH`) is 16. This means there are 16 (2^4) memory locations, each capable of storing 32 bits of data. 
 
@@ -49,7 +49,7 @@ Please note that this is the raw storage capacity of the memory module. The effe
 
 ##  ASIC Design Flow: Implementation of this Project from RTL to GDS II
 
-Welcome to our comprehensive guide on ASIC design, where we have designed the project from RTL to GDS II. This guide is perfect for those who want to see theory put into practice and gain hands-on experience.
+
 ### Content Overview
 - **RTL Design**
 - **RTL Simulation**
