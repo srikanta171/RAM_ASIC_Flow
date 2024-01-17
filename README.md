@@ -66,7 +66,7 @@ Welcome to our comprehensive guide on ASIC design, where we have designed the pr
 ### Let's get started
 
 - **RTL Design**: Understand how we converted the project specifications into RTL code using Verilog/VHDL.
-  - For a details understanding of the design [follow this]().
+  - For a details understanding of the design [follow this](rtl/ram.v).
 - **RTL Simulation**: Understand how we simulated the RTL code to verify the design functionality.
   - ![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/simulation/Screenshot%20from%202023-12-20%2018-25-20.png)
 - **Logic Synthesis**: Discover how we synthesized the RTL code into a gate-level netlist.
