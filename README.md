@@ -105,3 +105,40 @@ When importing a design into Cadence Innovus, the following files are required:
 
 Final Result of the Flow:
 ![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/physical_design/Screenshot%20from%202023-12-20%2019-49-24.png)
+
+
+---
+## Results from OPENROAD for Single port RAM:
+-
+**Congestion before optimization:**
+
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/single_port_RAM_using_OpenROAD/physical_design/routing%20congestion.png)
+
+**Congestion after optimization:**
+
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/single_port_RAM_using_OpenROAD/physical_design/after%20opt%20congestion.png)
+
+**Clock tree synthesis:**
+
+**Before CTS:**
+
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/single_port_RAM_using_OpenROAD/physical_design/before%20clock%20tree%20synthesis.JPG)
+
+**After CTS:**
+
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/single_port_RAM_using_OpenROAD/physical_design/clocktree%20synthesis.png)
+
+**Clock tree nets:**
+
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/single_port_RAM_using_OpenROAD/physical_design/clock%20net%20(cts).png)
+
+**Final Result:**
+
+![image](https://github.com/srikanta171/RAM_ASIC_Flow/blob/main/single_port_RAM_using_OpenROAD/physical_design/final%20layout.png)
+
+
+
+
+
+
+
