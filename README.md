@@ -31,7 +31,7 @@ The data output is controlled by the `oe` (output enable) control signal. If out
 
 ### More About Memory
 
-Computer memory is a broad field with various types. In general, computer memory can be categorized into three types:
+Computer memory is a broad field with various types. In general, computer memory can be categorized into two types:
 
 1. **Primary Memory**: Also known as main memory, it is used to store data and programs during computer operations. It uses semiconductor technology and is commonly called semiconductor memory. Primary memory is of two types: RAM (Random Access Memory) and ROM (Read-Only Memory).
 2. **Secondary Memory**: Provides long-term data storage. Examples include hard disk drives (HDDs), solid-state drives (SSDs), etc.
