@@ -35,7 +35,6 @@ Computer memory is a broad field with various types. In general, computer memory
 
 1. **Primary Memory**: Also known as main memory, it is used to store data and programs during computer operations. It uses semiconductor technology and is commonly called semiconductor memory. Primary memory is of two types: RAM (Random Access Memory) and ROM (Read-Only Memory).
 2. **Secondary Memory**: Provides long-term data storage. Examples include hard disk drives (HDDs), solid-state drives (SSDs), etc.
-3. **Cache Memory**: A small-sized type of volatile computer memory that provides high-speed data access to a processor and stores frequently used computer programs, applications, and data.
 
 ### Size of the Memory:
 The memory size of this single-port memory module is determined by the `ADDR_WIDTH`, `DATA_WIDTH`, and `DEPTH` parameters. 
